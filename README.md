@@ -1,86 +1,144 @@
-## ☕ Programación 1: Fundamentos de Java
+<div align="center">
 
-> Repositorio académico con la implementación de ejercicios prácticos correspondientes al módulo de Fundamentos del lenguaje Java.
+# ☕ Programación 1: Fundamentos de Java
+### Instituto Tecnológico de Las Américas (ITLA)
 
-| Parámetro | Detalle |
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JDK](https://img.shields.io/badge/JDK-17%2B-blue?style=for-the-badge)
+![Matrícula](https://img.shields.io/badge/Matrícula-2025--1071-informational?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completado-success?style=for-the-badge)
+
+<p align="center">
+  <b>Portafolio de prácticas y fundamentos de programación estructurada</b>
+</p>
+
+---
+
+</div>
+
+## 📌 Ficha Técnica
+
+| Atributo | Detalle |
 | :--- | :--- |
 | **Institución** | Instituto Tecnológico de Las Américas (ITLA) |
-| **Asignatura** | Programación 1 |
-| **Docente** | Jesús Quezada |
+| **Asignatura** | Programación 1[cite: 1] |
+| **Docente** | Jesús Quezada[cite: 1] |
 | **Estudiante** | Luis Ernesto Vargas De Jesus |
-| **Matrícula** | 2025-1071 |
-| **Entorno** | Java SE Development Kit (JDK) 17+ |
+| **Matrícula** | **2025-1071** |
+| **Entorno de Desarrollo** | Java SE Development Kit (JDK 17+)[cite: 66] |
 
 ---
 
-## 🎯 Alcance del Proyecto
+## 🎯 Objetivo Académico
 
-Consolidar las bases del paradigma estructurado y de objetos en Java mediante la implementación de 26 programas prácticos divididos en 9 ejes temáticos: sintaxis elemental, control de flujo condicional, estructuras repetitivas, modularización con métodos, robustez ante fallos y estructuras de almacenamiento contiguo.
-
----
-
-## 📂 Índice de Programas
-
-### 01. Estructura Básica
-* `MiPrimerPrograma.java`: Estructura del método `main` y flujo de salida en consola.
-* `EstructuraBasica.java`: Tipos primitivos, variables y operadores aritméticos elementales.
-
-### 02. Control Condicional (If - Else)
-* `SistemaCalificaciones.java`: Evaluación encadenada de rangos numéricos con `else if`.
-* `SistemaDescuentos.java`: Lógica de acumulación de descuentos comerciales por criterios combinados.
-* `OperadorTernario.java`: Asignaciones condicionales compactas de una sola línea.
-
-### 03. Estructura Switch
-* `MenuRestaurante.java`: Evaluación discreta con control de flujo mediante `break` y `default`.
-* `DiasLaborales.java`: Agrupación de casos continuos con ejecución compartida.
-* `SwitchModerno.java`: Sintaxis moderna (Java 14+) con expresiones lambda (`->`) y palabra reservada `yield`.
-
-### 04. Ciclos For
-* `TablaMultiplicar.java`: Generación de series aritméticas con contadores finitos.
-* `NominaMensual.java`: Procesamiento secuencial y acumulación de totales de nómina.
-* `MatrizAsientos.java`: Bucles anidados para la generación de cuadrículas bidimensionales.
-* `IncrementosPersonalizados.java`: Modificación del paso de conteo y secuencias regresivas.
-
-### 05. Ciclos Foreach
-* `InventarioProductos.java`: Recorrido directo de colecciones sin puntero de índice.
-* `AnalisisVentas.java`: Extracción de métricas estadísticas (máximos, mínimos y medias anuales).
-* `ProcesamientoEmpleados.java`: Manipulación y extracción de cadenas de caracteres en bucles.
-
-### 06. Ciclos While y Do-While
-* `SistemaLogin.java`: Control de acceso repetitivo con límite finito de intentos de fallo.
-* `CajeroAutomatico.java`: Menú transaccional persistente controlado por estado de salida.
-* `ValidacionEdad.java`: Bloque `do-while` para asegurar validación previa de entradas de usuario.
-
-### 07. Modularización (Métodos)
-* `CalculadoraEmpresarial.java`: Funciones estáticas con paso de parámetros y retornos calculados.
-* `GestionProductos.java`: Interconexión de múltiples métodos funcionales para un flujo comercial.
-
-### 08. Manejo de Excepciones (Try - Catch)
-* `DivisionSegura.java`: Captura de `ArithmeticException` para evitar el colapso de la aplicación.
-* `ValidacionDatosEmpresariales.java`: Disparo de excepciones personalizadas mediante `throw` y captura controlada.
-
-### 09. Arreglos y Matrices
-* `SistemaInventario.java`: Gestión de arreglos paralelos con tabulación formateada vía `printf`.
-* `AnalisisTemperaturas.java`: Cálculo estadístico sobre arreglos unidimensionales y comparación frente al promedio.
-* `MatrizCalificaciones.java`: Almacenamiento en matrices bidimensionales y cálculo de medias por filas y columnas.
-* `OperacionesArreglos.java`: Métodos de la clase `java.util.Arrays` (búsqueda binaria, ordenamiento, inversión y llenado).
+Implementar de forma práctica las estructuras esenciales de la programación orientada a objetos y algorítmica en Java, abarcando desde sintaxis elemental y estructuras de control hasta modularización, prevención de errores en tiempo de ejecución y tratamiento de colecciones de datos contiguos[cite: 1, 66].
 
 ---
 
-## ⚙️ Instrucciones de Ejecución
+## 📂 Módulos del Repositorio
 
-Para compilar y ejecutar cualquier clase directamente desde la terminal del sistema:
+<details open>
+<summary><b>1. Estructura Básica y Fundamentos</b></summary>
+<br>
+
+* `MiPrimerPrograma.java` — Declaración del método de entrada `main` y emisión estándar a consola[cite: 3].
+* `EstructuraBasica.java` — Uso de tipos de datos primitivos, memoria, operadores y operaciones de nómina[cite: 4, 7].
+
+</details>
+
+<details>
+<summary><b>2. Estructuras de Control Condicional (If - Else)</b></summary>
+<br>
+
+* `SistemaCalificaciones.java` — Mapeo de evaluaciones cualitativas por tramos numéricos con `else if`[cite: 10].
+* `SistemaDescuentos.java` — Implementación de reglas de negocio para acumulación escalonada de beneficios[cite: 12].
+* `OperadorTernario.java` — Asignaciones compactas e inline para simplificación de bifurcaciones simples[cite: 14].
+
+</details>
+
+<details>
+<summary><b>3. Control de Flujo con Switch</b></summary>
+<br>
+
+* `MenuRestaurante.java` — Gestión de selecciones discretas con cláusulas de escape `break` y caso `default`[cite: 16, 17].
+* `DiasLaborales.java` — Agrupación de casos continuos para reutilización de instrucciones[cite: 19].
+* `SwitchModerno.java` — Implementación de expresiones switch (Java 14+) con sintaxis lambda `->` y `yield`[cite: 21].
+
+</details>
+
+<details>
+<summary><b>4. Iteración y Bucles Determinados (For)</b></summary>
+<br>
+
+* `TablaMultiplicar.java` — Construcción de sucesiones matemáticas mediante iteraciones controladas[cite: 23].
+* `NominaMensual.java` — Procesamiento coordinado de vectores y cómputo de acumuladores financieros[cite: 25].
+* `MatrizAsientos.java` — Bucles anidados orientados al dibujo y mapeo de cuadrículas bidimensionales[cite: 27].
+* `IncrementosPersonalizados.java` — Manejo del contador de avance con saltos no lineales y cuentas regresivas[cite: 29].
+
+</details>
+
+<details>
+<summary><b>5. Recorrido Simplificado (Foreach)</b></summary>
+<br>
+
+* `InventarioProductos.java` — Iteración limpia de vectores sin el uso de índices explícitos[cite: 31, 32].
+* `AnalisisVentas.java` — Algoritmos para obtención de valores extremos (máximos y mínimos) y promedios[cite: 34].
+* `ProcesamientoEmpleados.java` — Extracción y transformación de cadenas de texto durante el ciclo de lectura[cite: 36].
+
+</details>
+
+<details>
+<summary><b>6. Bucles Condicionados (While / Do-While)</b></summary>
+<br>
+
+* `SistemaLogin.java` — Autenticación con control estricto de intentos de acceso[cite: 39].
+* `CajeroAutomatico.java` — Menú transaccional persistente gobernado por banderas de finalización[cite: 41].
+* `ValidacionEdad.java` — Bucle `do-while` para asegurar la entrada obligatoria de datos válidos[cite: 38, 43].
+
+</details>
+
+<details>
+<summary><b>7. Modularización y Métodos</b></summary>
+<br>
+
+* `CalculadoraEmpresarial.java` — Métodos estáticos con paso de argumentos y retorno de valores calculados[cite: 45, 46].
+* `GestionProductos.java` — Arquitectura modular interconectando subprocesos de negocio (stock, IVA y descuentos)[cite: 48].
+
+</details>
+
+<details>
+<summary><b>8. Control de Excepciones (Try - Catch - Finally)</b></summary>
+<br>
+
+* `DivisionSegura.java` — Tratamiento de `ArithmeticException` para evitar el cierre inesperado del programa[cite: 50, 51].
+* `ValidacionDatosEmpresariales.java` — Creación de reglas de entrada con lanzamiento explícito mediante `throw`[cite: 53].
+
+</details>
+
+<details>
+<summary><b>9. Arreglos y Matrices</b></summary>
+<br>
+
+* `SistemaInventario.java` — Arreglos paralelos con salida tabular alineada mediante `printf`[cite: 56].
+* `AnalisisTemperaturas.java` — Evaluación de tendencias y desviaciones respecto a una media calculada[cite: 58].
+* `MatrizCalificaciones.java` — Tratamiento de tablas bidimensionales y cálculo de medias por renglón y columna[cite: 60].
+* `OperacionesArreglos.java` — Utilidades nativas de la librería `java.util.Arrays` (búsqueda, copia, orden e inversión)[cite: 62].
+
+</details>
+
+---
+
+## 💻 Entorno y Ejecución
+
+Asegúrate de contar con el **Java Development Kit (JDK 17+)** debidamente configurado en tus variables de entorno[cite: 66].
+
+### Compilar y Ejecutar un Programa
+
+Abre una terminal en el directorio raíz del proyecto y ejecuta los siguientes comandos según el archivo deseado[cite: 1]:
 
 ```bash
-# 1. Compilación del archivo fuente
-javac NombreDelArchivo.java
+# 1. Compilación del código fuente
+javac NombreDelPrograma.java
 
-# 2. Ejecución del bytecode generado
-java NombreDelArchivo
-
-```bash
-# Compilación del archivo fuente
-javac NombreDelArchivo.java
-
-# Ejecución del bytecode generado
-java NombreDelArchivo
+# 2. Ejecución del programa compilado
+java NombreDelPrograma
