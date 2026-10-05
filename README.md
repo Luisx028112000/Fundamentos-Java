@@ -4,11 +4,11 @@
 
 | Metadato | Detalle |
 | :--- | :--- |
-| Institución | Instituto Tecnológico de Las Américas (ITLA) |
+| Institución | Instituto Tecnológico de Las Américas (ITLA)
 | Asignatura | Programación 1 |
-| Docente| Jesús Quezada[ |
+| Docente| Jesús Quezada
 | Estudiante | Luis Ernesto Vargas De Jesus |2025-1071
-| Entorno| Java SE Development Kit (JDK) 17+[cite: 66] |
+| Entorno| Java SE Development Kit (JDK) 17
 
 ---
 
