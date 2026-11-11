@@ -12,7 +12,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  *
- * @author ymala
+ * @author Luis E. Vargas
  */
 public class CalculadoraExtendida extends javax.swing.JFrame {
     
